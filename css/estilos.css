@@ -1,0 +1,89 @@
+header{
+    background-color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 5px salmon;
+}
+header a{
+    color: seagreen;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+header li{
+    
+    display: inline;
+    padding: 0 20px 0 20px;
+    
+}
+
+header #marca{
+    float: unset;
+    
+}
+header #marca h1{
+    margin: 0;
+   
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header .actual a{
+    color: deepskyblue;
+    font-weight: bold;
+}
+header a:hover{
+    color: dimgray;
+    font-weight: bold;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: snow;
+}
+.contenedor{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+footer{
+    font-size: 12px;
+    text-align: center;
+    
+}
+.menu li{
+    display: inline-block;
+}
+li a, btnDesplegable{
+    display: inline-block;
+    padding: 0.9em 1em;
+    text-align: center ;
+    text-decoration:none ;
+}
+.contenidoDesplegable{
+    display:none;
+    position: absolute;
+    background-color: cornsilk;
+    min-width: 8em;
+}
+.contenidoDesplegable a{
+    color: black;
+    padding: 0.9em 1em;
+    display:block ;
+    text-align: left;
+}
+.contenidoDesplegable a:hover{
+    background-color: silver;
+}
+.desplegable:hover .contenidoDesplegable{
+    display: block;
+}
+li a:hover{
+   background-color: rosybrown;
+}
